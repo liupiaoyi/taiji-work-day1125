@@ -18,8 +18,7 @@ Auto-configuration自动装配（概念）
 @EnableAutoConfiguration
 	让Spring Boot根据你以来或添加的jar 自动完成你想要的spring配置文件
 	
-	
-	
+		
 stream.generator方法：生成一个无限长度的Stream，其元素的生成是通过给定的Supplier（这个接口可以看成一个对象的工厂，每次调用返回一个给定类型的对象）
 	这个无限长度Stream是懒加载，一般配合Stream的limit()方法来用。
 	stream.limit: 截断操作，获取stream前N个元素(如果原Stream中包含的元素个数小于N，那就获取其所有的元素)
